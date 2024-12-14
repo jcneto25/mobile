@@ -1,0 +1,30 @@
+{
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "bracketSpacing": true,
+  "jsxSingleQuote": false,
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": {
+        "tabWidth": 2,
+        "printWidth": 100
+      }
+    },
+    {
+      "files": "*.ts",
+      "options": {
+        "singleQuote": true,
+        "semi": true,
+        "trailingComma": "all",
+        "printWidth": 80
+      }
+    }
+  ]
+}
